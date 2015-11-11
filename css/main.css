@@ -1,0 +1,405 @@
+/*
+	Theme Name: Expresso Theme
+	----------------------------------------------------------
+	Theme URI: http://
+	Author: kevinWachira
+	Author URI: http://kevinnmwangi@gmail.com
+	Description: Expresso Theme
+	Version: 1.0.0
+
+-------------------------------------------------------------------------------*/
+
+/* Theme's main structure 
+-------------------------------------------------------------------------------*/
+
+/* Header styles	
+-------------------------------------------------------------------------------
+	* Nav bar
+	* Logo
+	* Upper menu
+	* Menu
+-------------------------------------------------------------------------------*/
+
+.headerWrap{
+	font-size: 16px;
+	text-transform: uppercase;
+	vertical-align: baseline;
+}
+
+.headerWrap header *{
+	vertical-align: bottom;
+}
+
+.title{
+	float: left;
+	position: relative;
+	left: 0;
+}
+
+header > nav{
+	font-family: 'RalewaySemiBold';
+	float: right;
+	position: relative;
+	right: 0;
+}
+
+header > nav > ul{
+	display: block;
+	text-align: right;
+}
+
+header nav ul:nth-child(1){
+	margin-bottom: 24px;
+	font-size: 14px;
+	text-transform: lowercase;
+}
+
+header > nav > ul li{
+	display: inline-block;
+}
+
+header > nav > ul li a{
+	color: #000;
+	box-sizing: border-box;
+	padding: 5px 15px;
+	text-decoration: none;
+}
+
+header > nav > ul:nth-child(1) li a{
+	color: #717171 !important;
+}
+
+/* Get-started styles	
+-------------------------------------------------------------------------------*/
+.getStarted{
+	background-image: url(../img/getstarted-bg.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 403px;
+	width: 100%;
+}
+
+/* About-us styles	
+-------------------------------------------------------------------------------*/
+
+.gravater img{
+	border-radius: 50% 50%;
+}
+
+.clients-caption{
+	display: block;
+	position: relative;
+}
+
+.clients-caption p{
+	display: inline-block;
+	width: 85%
+}
+
+.clients-caption:before {
+    color: #c79c6e;
+    content: '';
+    font-family: 'FontAwesome';
+    font-size: 50px;
+    width: 50px !important;
+    height: 50px;
+    display: inline-block;
+    position: relative;
+    top: -100px;
+}
+
+.clients-caption:after{
+	background-image: url(../img/arrow.png);
+	background-repeat: no-repeat;
+	display: block;
+	position: absolute;
+	left: 85px;
+    bottom: -50px;
+	height: 55px;
+	width: 55px;
+}
+/* Pricing styles	
+-------------------------------------------------------------------------------*/
+
+.inner{
+	border: 1px solid #c69c6d;
+}
+
+.inner > ul *{
+	box-sizing: border-box;
+	padding: 10px;
+	text-transform: uppercase;
+}
+.inner > ul:first-child li:last-child, .inner > ul:first-child li:nth-child(2)  {
+	padding: 0;
+	line-height: 0.8;
+}
+
+.subscribeButton{
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+    margin: 20px auto;
+    width: 70%;
+}
+
+/* Blog styles	
+-------------------------------------------------------------------------------*/
+
+.post ul{
+	margin: 10px 0;
+}
+
+.post ul li{
+	color: #808080;
+	float: left;
+	margin: 2px 2px;
+}
+
+.post-image, .post-image img{
+	position: relative;
+	height: auto;
+	width: 100%;
+}
+
+.caption{
+	background: #000000;
+	opacity: 0.52;
+	padding: 20px;
+	position: absolute;
+	bottom: 0;
+}
+
+.date{
+	border: 1px solid #ffffff;
+	padding: 10px;
+	box-sizing: border-box;
+	height: 80px;
+    width: 80px;
+}
+
+.caption-text{
+	color: #ffffff;
+	box-sizing: border-box;
+	font-family: 'RalewayMedium';
+	font-size: 16px;
+	height: 80px;
+}
+
+.day{
+	color: #ffffff;
+	font-family: 'RalewaySemiBold';
+	font-size: 30px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.month{
+	color: #ffffff;
+	font-family: 'RalewayRegular';
+	font-size: 16px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.caption-text span{
+	color: #ffffff;
+	font-family: 'RalewayMediumItalic';
+	font-size: 14px;
+	line-height: 5;
+}
+
+/* Contacts styles	
+-------------------------------------------------------------------------------*/
+.page-header * {
+	color: #47484a;
+	display: block;
+}
+
+.section-header * {
+	color: #47484a;
+	display: block;
+}
+
+.page-header{
+	font-family: 'RalewayRegular';
+	width: 59%;
+}
+
+.section-header{
+	font-family: 'RalewayRegular';
+	width: 100%;
+}
+
+.line-separator{
+	box-sizing: border-box;
+	margin: 5px 0 30px 0;
+    padding: 10px;
+}
+
+.line-separator .line{
+	border: 1px solid #47484a;
+	left: 50%;
+	margin-left: -5.2%;
+	position: absolute;
+	width: 10%;
+}
+
+.line-separator .line .dot{
+	background: #47484a;
+	border: 3px solid #fffcf4;
+	box-sizing: border-box;
+	left: 50%;
+	margin-left: 2%;
+	margin-top: -5px;
+	padding: 2px;
+	position: absolute;
+	height: 5px;
+	width: 5px;
+}
+
+.line-separator .line .dot + .dot{
+	background: #47484a;
+	border: 3px solid #fffcf4;
+	box-sizing: border-box;
+	left: 50%;
+	margin-left: -4%;
+	margin-top: -5px;
+	padding: 2px;
+	position: absolute;
+	height: 5px;
+	width: 5px;
+}
+
+.line-separator-mini .line{
+	border: 1px solid #47484a;
+	position: absolute;
+	width: 10%;
+}
+
+.line-separator-mini .line .dot {
+    background: #47484a;
+    border: 9px solid #fffcf4;
+    box-sizing: border-box;
+    left: -6%;
+    margin-left: -1%;
+    margin-top: -11px;
+    padding: 2px;
+    position: absolute;
+    height: 5px;
+    width: 5px;
+}
+
+.contacts ul * {
+	box-sizing: border-box;
+	display: block;
+	font-family: 'RalewayMedium';
+	list-style: none;
+	padding: 10px 0;
+}
+
+.location:before{
+	content: '';
+	font-family: 'FontAwesome';
+	margin-right: 19px;
+}
+.tel:before{
+	content: '';
+	font-family: 'FontAwesome';
+	margin-right: 12px;
+}
+.fax:before{
+	content: '';
+	font-family: 'FontAwesome';
+	margin-right: 12px;
+}
+.email:before{
+	content: '';
+	font-family: 'FontAwesome';
+	 margin-right: 12px;
+}
+
+.social-media ul li a{
+	color: #000000;
+	box-sizing: border-box;
+	border: 1px solid #000000;
+	float: left;
+	font-family: 'RalewayMedium';
+	list-style: none;
+	margin-right: 5px;
+	padding: 10px;
+	text-decoration: none;
+    height: 40px;
+	width: 40px;
+}
+
+.facebook{
+	content: '';
+	font-family: 'FontAwesome';
+}
+
+/* Message styles	
+-------------------------------------------------------------------------------*/
+.message ul li{
+	margin: 10px 0;
+}
+
+/* Map styles	
+-------------------------------------------------------------------------------*/
+
+.map{
+	background: #c69c6d;
+	box-sizing: border-box;
+	padding: 32px 0;
+	text-align: center;
+	width: 100%;
+}
+
+.map a{
+	
+	color: #000;
+	font-family: 'RalewayBold';
+	padding: 32px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.map a:after{
+	content: "";
+    font-family: 'FontAwesome';
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+
+/* Pre-footer
+-------------------------------------------------------------------------------*/
+
+.pre-footer{
+	background-attachment: scroll;
+	background-image: url(../img/pre-footer-texture.jpg);
+	height: 487px;;
+	width: 100%;
+}
+
+/* Footer styles	
+-------------------------------------------------------------------------------*/
+
+footer{
+	background: #303030;
+	border-top: solid 1px #636363;
+	color: #acacac;
+	width: 100%;
+}
+
+footer h3{
+	font-size: 12px;
+	font-family: 'RalewaySemiBold';
+	padding: 20px 0;
+	text-align: center;
+	text-transform: uppercase;
+	vertical-align: middle;
+}
+

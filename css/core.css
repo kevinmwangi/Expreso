@@ -1,0 +1,449 @@
+/*
+	Theme Name: Expresso Theme
+	----------------------------------------------------------
+	Theme URI: http://
+	Author: kevinWachira
+	Author URI: http://kevinnmwangi@gmail.com
+	Description: Expresso Theme
+	Version: 0.1
+
+-------------------------------------------------------------------------------*/
+
+/* Theme's main structure 
+-------------------------------------------------------------------------------
+	1. FONT IMPORTS
+	2. COLOR
+	3. GRID
+	4. FLOAT
+	5. WIDTH
+	6. ALIGNMENT
+	7. HEADINGS
+	8. BORDER STYLES
+	9. INPUT TYPES
+	10. BUTTONS
+-------------------------------------------------------------------------------*/
+
+/* 1. FONT IMPORTS
+-------------------------------------------------------------------------------*/
+
+@font-face {
+	font-family: "RalewaySemiBold";
+	font-style: normal;
+	font-weight: normal;
+	src: url("../fonts/Raleway-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "RalewayMedium";
+	font-style: normal;
+	font-weight: normal;
+	src: url("../fonts/Raleway-Medium.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "RalewayBold";
+	font-style: normal;
+	font-weight: normal;
+	src: url("../fonts/Raleway-Bold.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "RalewayRegular";
+	font-style: normal;
+	font-weight: normal;
+	src: url("../fonts/Raleway-Regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "RalewayMediumItalic";
+	font-style: normal;
+	font-weight: normal;
+	src: url("../fonts/Raleway-MediumItalic.ttf") format("truetype");
+}
+
+/*-------------------------------------------------------------------------------*/
+/* 2. COLOR
+-------------------------------------------------------------------------------*/
+.dark{
+	background: #111111;
+	color: #ffffff;
+}
+
+.borderLight{
+	border-color: #fff;
+	color: #fff;
+}
+
+.light{
+	background: #fff;
+	color: #111111;
+}
+/*-------------------------------------------------------------------------------*/
+/* 3. GRID
+-------------------------------------------------------------------------------*/
+.col-1{
+	display: block;
+	width: 100%;
+}
+
+.col-2{
+	display: inline-block;
+	width: 50%;
+}
+
+.col-3{
+	display: inline-block;
+	width: 33.333%;
+}
+
+.col-4{
+	display: inline-block;
+	width: 25%;
+}
+
+.col-5{
+	display: inline-block;
+	width: 75%;
+}
+
+.col-6{
+	display: inline-block;
+	width: 66.666%;
+}
+
+/*-------------------------------------------------------------------------------*/
+/* 4. FLOAT
+-------------------------------------------------------------------------------*/
+.floatLeft{
+	float: left;
+}
+
+.floatRight{
+	float: right;
+}
+
+/*-------------------------------------------------------------------------------*/
+/* 5. WIDTH
+-------------------------------------------------------------------------------*/
+.gridWidth{
+	width:1152px;
+	margin: 0 auto;
+}
+
+.inner-content{
+	display: block;
+	position: relative;
+	margin: 30px 0;
+}
+
+
+/*-------------------------------------------------------------------------------*/
+/* 6. ALIGNMENT
+-------------------------------------------------------------------------------*/
+.alignCenter{
+	margin: 0 auto;
+}
+
+.textalignCenter{
+	text-align: center;
+}
+
+.verticalAlign{
+	vertical-align: middle;
+}
+
+.padding-30{
+	padding: 30px;
+	box-sizing: border-box;
+}
+
+.padding-15{
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+.padding-15-lr{
+	padding: 0 15px;
+	box-sizing: border-box;
+}
+
+.padding-30-lr{
+	padding: 0 30px;
+	box-sizing: border-box;
+}
+
+.padding-30-left{
+	padding: 0 0 0 30px;
+	box-sizing: border-box;
+}
+
+.padding-30-r{
+	padding: 0 30px 0 0;
+	box-sizing: border-box;
+}
+
+.padding-30-TB{
+	padding: 30px 0;
+	box-sizing: border-box;
+}
+
+.padding-30-top{
+	padding: 30px 0 0 0;
+	box-sizing: border-box;
+}
+
+.padding-30-bottom{
+	padding: 0 0 30px 0;
+	box-sizing: border-box;
+}
+
+.padding-30-top-left{
+	padding: 30px 0 0 15px;
+	box-sizing: border-box;
+}
+
+.padding-30-top-right{
+	padding: 30px 15px 0 0;
+	box-sizing: border-box;
+}
+
+.padding-15-top{
+	padding: 15px 0 0 0;
+	box-sizing: border-box;
+}
+
+.padding-50{
+	padding: 50px;
+	box-sizing: border-box;
+}
+
+.margin-lr-15{
+	margin: 0 15px;
+}
+
+.margin-tb-15{
+	margin: 15px 0;
+}
+
+.margin-Top-15{
+	margin: 15px 0 0 0;
+}
+
+.margin-Bottom-15{
+	margin: 0 0 15px 0;
+}
+
+/*-------------------------------------------------------------------------------*/
+/* 7. HEADINGS
+-------------------------------------------------------------------------------*/
+
+h1{
+	font-family: 'RalewayBold';
+	font-size: 33px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+h2{
+	font-family: 'RalewayBold';
+	font-size: 22px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+h3{
+	font-family: 'RalewayBold';
+	font-size: 16px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+h4{
+	font-family: 'RalewayRegular';
+	font-size: 33px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+h5{
+	font-family: 'RalewayBold';
+	font-size: 50px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+h6{
+	font-family: 'RalewayRegular';
+	font-size: 18px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.RalewaySemiBold{
+	font-family: 'RalewaySemiBold' !important;
+}
+
+.RalewayMedium{
+	font-family: 'RalewayMedium' !important;
+}
+
+.RalewayRegular{
+	font-family: 'RalewayRegular' !important;
+}
+
+/*-------------------------------------------------------------------------------*/
+/* 8. BORDER STYLES
+-------------------------------------------------------------------------------*/
+
+.border{
+	border: 1px solid;
+	border-color: #c69c6d;
+}
+
+.border-bottom{
+	border-bottom: 1px solid;
+	border-color: #c69c6d;
+}
+
+.border-light{
+	border: 1px solid;
+	border-color: #ccc;
+}
+
+.border-bottom-light{
+	border-bottom: 1px solid;
+	border-color: #ccc;
+}
+
+.border-dark{
+	border: 1px solid;
+	border-color: #111111;
+}
+
+/*-------------------------------------------------------------------------------*/
+/* 9. INPUT TYPES
+-------------------------------------------------------------------------------*/
+
+input, textarea{
+	color: #929292;
+	text-transform: uppercase;
+	width: 100%;
+}
+
+input[type=email] {
+	border: 1px solid #c2c2c2;
+	box-sizing: border-box;
+	padding: 10px;            
+	font-family: 'RalewayRegular';     
+	line-height: 1.5; 
+}
+
+input[type=text] {
+	border: 1px solid #c2c2c2;
+	box-sizing: border-box;
+	padding: 10px;            
+	font-family: 'RalewayRegular';     
+	line-height: 1.5; 
+}
+
+input[type=submit], button {
+	color: #808080;
+	background: #fffcf4;
+   	border: 1px solid #7d7d7d;
+	box-sizing: border-box;
+	padding: 10px;            
+	font-family: 'RalewayBold';     
+	line-height: 1.5; 
+}
+
+input[type=tel] {
+   	border: 1px solid #c2c2c2;
+	box-sizing: border-box;
+	padding: 10px;            
+	font-family: 'RalewayRegular';     
+	line-height: 1.5; 
+}
+
+input[type=search] {
+   	border: 1px solid #c2c2c2;
+	box-sizing: border-box;
+	padding: 10px;            
+	font-family: 'RalewayRegular';     
+	line-height: 1.5; 
+}
+
+input[type=number] {
+   	border: 1px solid #c2c2c2;
+	box-sizing: border-box;
+	padding: 10px;            
+	font-family: 'RalewayRegular';     
+	line-height: 1.5; 
+}
+
+input[type=date] {
+   	border: 1px solid #c2c2c2;
+	box-sizing: border-box;
+	padding: 10px;            
+	font-family: 'RalewayRegular';     
+	line-height: 1.5; 
+}
+
+input[type=month] {
+   	border: 1px solid #c2c2c2;
+	box-sizing: border-box;
+	padding: 10px;            
+	font-family: 'RalewayRegular';     
+	line-height: 1.5; 
+}
+
+input[type=password] {
+   	border: 1px solid #c2c2c2;
+	box-sizing: border-box;
+	padding: 10px;            
+	font-family: 'RalewayRegular';     
+	line-height: 1.5; 
+}
+
+input[type=radio] {
+   	border: 1px solid #c2c2c2;
+	box-sizing: border-box;
+	font-family: 'RalewayRegular';     
+}
+input[type=radio]:checked {
+   	border: 1px solid #c2c2c2;
+	box-sizing: border-box;
+	font-family: 'RalewayRegular';     
+}
+
+input[type=checkbox] {
+   	border: 1px solid #c2c2c2;
+	box-sizing: border-box;
+	font-family: 'RalewayRegular';     
+}
+
+input[type=checkbox]:checked {
+   	border: 1px solid #c2c2c2;
+	box-sizing: border-box;
+	font-family: 'RalewayRegular';     
+}
+
+textarea{
+	border: 1px solid #c2c2c2;
+	box-sizing: border-box;
+	padding: 10px 10px 50px 10px;            
+	font-family: 'RalewayRegular';     
+	line-height: 1.5; 
+}
+
+/*-------------------------------------------------------------------------------*/
+/* 10. BUTTONS
+-------------------------------------------------------------------------------*/
+
+.minimalButton{
+	border: 1px solid;
+	padding: 15px;
+}
+
+.minimalButton a{
+
+}
